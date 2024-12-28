@@ -1,0 +1,20 @@
+.horizontal-list {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el padding del ul */
+    margin: 0;
+    /* Elimina el margen del ul */
+    display: flex;
+    /* Aplica un diseño flexbox */
+}
+
+.horizontal-list li {
+    margin-right: 15px;
+    /* Espaciado entre los elementos */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0;
+    /* Elimina el margen derecho del último elemento */
+}
