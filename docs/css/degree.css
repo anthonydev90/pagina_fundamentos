@@ -6,9 +6,12 @@ body {
     position: relative;
     height: 3000px;
 }
-
+h3{
+    color: white !important;
+}
 p {
     line-height: 1.75;
+    color: white;
 }
 
 .page-section {
@@ -164,6 +167,18 @@ header.masthead .masthead-heading {
 }
 .col>img{
     width: 300px;
+}
+.mates{
+    background-image: url("../images/discreta.webp");
+    border-radius: 10px;
+}
+.fundamentos{
+    background-image: url("../images/fundamentos.jpg");
+    border-radius: 10px;
+}
+.programacion{
+    background-image: url("../images/fundamentos.jpg");
+    border-radius: 10px;
 }
 @media (min-width: 768px) {
     header.masthead {
