@@ -4,6 +4,7 @@ html {
 
 body {
     position: relative;
+
 }
 
 p {
@@ -139,7 +140,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../images/04-communication_16x9.png");
+    background-image: url("../images/background.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -161,97 +162,39 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.col>img{
-    width: 300px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
 }
-@media (min-width: 768px) {
-    header.masthead {
-        padding-top: 17rem;
-        padding-bottom: 12.5rem;
-    }
-
-    header.masthead .masthead-subheading {
-        font-size: 2.25rem;
-        font-style: italic;
-        line-height: 2.25rem;
-        margin-bottom: 2rem;
-    }
-
-    header.masthead .masthead-heading {
-        font-size: 4.5rem;
-        font-weight: 700;
-        line-height: 4.5rem;
-        margin-bottom: 4rem;
-    }
+h1 {
+    color: #0056b3;
 }
-input[type=text],
-select {
-
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    width: 70%;
-}
-
-input[type=password],
-select {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
-}
-
-input[type=submit] {
-    width: 70%;
-    background-color: black;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: darkblue;
-}
-
-.container {
-
-
-    max-width: 500px;
-    border-radius: 5px;
-    /* background-color: #f2f2f2; */
+.caja {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
     padding: 20px;
-
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.link-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+}
+.link-item:hover {
+    background-color: #f1f1f1;
+}
+a {
+    color: #0056b3;
+    text-decoration: none!important;
 }
 
-.container>img {
-    width: 200px;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    flex-direction: column;
-}
-
-.main>.redes>a>img{
-    width: 60px;
-    margin: 10px;
-    
-}
-/* CSS */
 footer {
     background-color: #222;
     color: #fff;
